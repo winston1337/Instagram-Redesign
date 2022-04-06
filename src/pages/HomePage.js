@@ -1,5 +1,8 @@
 import React from "react";
 import "../App.css";
+import SearchLineIcon from "remixicon-react/SearchLineIcon";
+import FunctionLineIcon from "remixicon-react/FunctionLineIcon";
+import Notification4FillIcon from "remixicon-react/Notification4FillIcon";
 
 function HomePage() {
   return (
@@ -44,20 +47,20 @@ function HomePage() {
         <div className="menu">
           <a href="#" className="active">
             <span className="icon">
-              <i class="ri-function-line"></i>
+              <FunctionLineIcon />
             </span>
             Feed
           </a>
           <a href="#">
             <span className="icon">
-              <i class="ri-search-line"></i>
+              <SearchLineIcon />
             </span>
             Explore
           </a>
 
           <a href="#">
             <span className="icon">
-              <i class="ri-notification-4-line"></i>
+              <Notification4FillIcon />
             </span>
             Notification
           </a>
@@ -114,6 +117,127 @@ function HomePage() {
               <i class="ri-add-circle-fill"></i>
               <div className="btn-text">Add Photo</div>
             </a>
+          </div>
+        </div>
+
+        {/* ig stories */}
+        <div className="stories-title">
+          <h1>Stories</h1>
+          <a href="" className="btn">
+            {/* icon */}
+            <div className="text">Watch All</div>
+          </a>
+        </div>
+        {/* stories content */}
+        <div className="stories">
+          {/* story 1*/}
+          <div className="stories-img color">
+            <img src="###" alt="" />
+            <div className="add">+</div>
+          </div>
+          {/* story 2*/}
+          <div className="stories-img">
+            <img src="###" alt="" />
+          </div>
+          {/* story 3*/}
+          <div className="stories-img">
+            <img src="###" alt="" />
+          </div>
+          {/* story 4*/}
+          <div className="stories-img">
+            <img src="###" alt="" />
+          </div>
+          {/* story 5*/}
+          <div className="stories-img">
+            <img src="###" alt="" />
+          </div>
+          {/* story 6*/}
+          <div className="stories-img">
+            <img src="###" alt="" />
+          </div>
+          {/* story 7*/}
+          <div className="stories-img">
+            <img src="###" alt="" />
+          </div>
+          {/* story 8*/}
+          <div className="stories-img">
+            <img src="###" alt="" />
+          </div>
+          {/* story 9*/}
+          <div className="stories-img">
+            <img src="###" alt="" />
+          </div>
+          {/* story 10*/}
+          <div className="stories-img">
+            <img src="###" alt="" />
+          </div>
+        </div>
+
+        {/* main post */}
+        <div className="feed">
+          <h1>Feed</h1>
+          <div className="feed-text">
+            <h2>Latest</h2>
+            <span>Popular</span>
+          </div>
+        </div>
+        {/* Posts */}
+        <div className="main-posts">
+          {/* box 1 */}
+          <div className="post-box">
+            <img src="###" alt="" />
+
+            <div className="post-info">
+              <div className="post-profile">
+                <div className="post-img">
+                  <img src="" alt="" />
+                </div>
+                <h3>Rashaad</h3>
+              </div>
+              <div className="likes">
+                {/* icon heart */}
+                <span>84.5k</span>
+                {/*  comment icon */}
+                <span>88</span>
+              </div>
+            </div>
+          </div>
+          <div className="post-box">
+            <img src="###" alt="" />
+
+            <div className="post-info">
+              <div className="post-profile">
+                <div className="post-img">
+                  <img src="" alt="" />
+                </div>
+                <h3>Rashaad</h3>
+              </div>
+              <div className="likes">
+                {/* icon heart */}
+                <span>84.5k</span>
+                {/*  comment icon */}
+                <span>88</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="post-box">
+            <img src="###" alt="" />
+
+            <div className="post-info">
+              <div className="post-profile">
+                <div className="post-img">
+                  <img src="" alt="" />
+                </div>
+                <h3>Rashaad</h3>
+              </div>
+              <div className="likes">
+                {/* icon heart */}
+                <span>84.5k</span>
+                {/*  comment icon */}
+                <span>88</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
