@@ -3,6 +3,15 @@ import "../App.css";
 import SearchLineIcon from "remixicon-react/SearchLineIcon";
 import FunctionLineIcon from "remixicon-react/FunctionLineIcon";
 import Notification4FillIcon from "remixicon-react/Notification4FillIcon";
+import MailUnreadFillIcon from "remixicon-react/MailUnreadFillIcon";
+import SendPlaneFillIcon from "remixicon-react/SendPlaneFillIcon";
+import BarChart2FillIcon from "remixicon-react/BarChart2FillIcon";
+import Settings5FillIcon from "remixicon-react/Settings5FillIcon";
+import LogoutBoxRFillIcon from "remixicon-react/LogoutBoxRFillIcon";
+import AddCircleFillIcon from "remixicon-react/AddCircleFillIcon";
+import PlayCircleFillIcon from "remixicon-react/PlayCircleFillIcon";
+import HeartLineIcon from "remixicon-react/HeartLineIcon";
+import Chat1FillIcon from "remixicon-react/Chat1FillIcon";
 
 function HomePage() {
   return (
@@ -67,31 +76,31 @@ function HomePage() {
 
           <a href="#">
             <span className="icon">
-              <i class="ri-mail-unread-fill"></i>
+              <MailUnreadFillIcon />
             </span>
             Messages
           </a>
           <a href="#">
             <span className="icon">
-              <i class="ri-send-plane-fill"></i>
+              <SendPlaneFillIcon />
             </span>
             Direct
           </a>
           <a href="#">
             <span className="icon">
-              <i class="ri-bar-chart-2-fill"></i>
+              <BarChart2FillIcon />
             </span>
             Stats
           </a>
           <a href="#">
             <span className="icon">
-              <i class="ri-settings-5-line"></i>
+              <Settings5FillIcon />
             </span>
             Settings
           </a>
           <a href="#">
             <span className="icon">
-              <i class="ri-logout-box-r-line"></i>
+              <LogoutBoxRFillIcon />
             </span>
             Logout
           </a>
@@ -104,17 +113,17 @@ function HomePage() {
         <div className="header">
           {/* Search */}
           <div className="search">
-            <i class="ri-search-line"></i>
+            <SearchLineIcon />
             <input type="text" placeholder="Search" />
           </div>
 
           {/* content */}
           <div className="header-content">
-            <i class="ri-notification-4-fill"></i>
-            <i class="ri-mail-unread-fill"></i>
+            <Notification4FillIcon />
+            <MailUnreadFillIcon />
             {/* Button */}
             <a href="#" className="btn">
-              <i class="ri-add-circle-fill"></i>
+              <AddCircleFillIcon />
               <div className="btn-text">Add Photo</div>
             </a>
           </div>
@@ -124,7 +133,7 @@ function HomePage() {
         <div className="stories-title">
           <h1>Stories</h1>
           <a href="" className="btn">
-            {/* icon */}
+            <PlayCircleFillIcon />
             <div className="text">Watch All</div>
           </a>
         </div>
@@ -195,9 +204,9 @@ function HomePage() {
                 <h3>Rashaad</h3>
               </div>
               <div className="likes">
-                {/* icon heart */}
+                <HeartLineIcon />
                 <span>84.5k</span>
-                {/*  comment icon */}
+                <Chat1FillIcon />
                 <span>88</span>
               </div>
             </div>
@@ -213,9 +222,9 @@ function HomePage() {
                 <h3>Rashaad</h3>
               </div>
               <div className="likes">
-                {/* icon heart */}
+                <HeartLineIcon />
                 <span>84.5k</span>
-                {/*  comment icon */}
+                <Chat1FillIcon />
                 <span>88</span>
               </div>
             </div>
@@ -232,9 +241,9 @@ function HomePage() {
                 <h3>Rashaad</h3>
               </div>
               <div className="likes">
-                {/* icon heart */}
+                <HeartLineIcon />
                 <span>84.5k</span>
-                {/*  comment icon */}
+                <Chat1FillIcon />
                 <span>88</span>
               </div>
             </div>
