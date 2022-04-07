@@ -143,7 +143,7 @@ function HomePage() {
           <div className="stories-img color">
             <img src="./imgs/ig_photo4.jpeg" alt="" />
             <div className="add">+</div>
-          </div> 
+          </div>
           {/* story 2*/}
           <div className="stories-img">
             <img src="./imgs/story_photo1.jpeg" alt="" />
@@ -187,7 +187,7 @@ function HomePage() {
           <h1>Feed</h1>
           <div className="feed-text">
             <h2>Latest</h2>
-            <span>Popular</span>
+            <h2>Popular</h2>
           </div>
         </div>
         {/* Posts */}
