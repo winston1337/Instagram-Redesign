@@ -19,7 +19,7 @@ function HomePage() {
     <body>
       {/* sidebar */}
       <div className="sidebar">
-        <a href="/home" className="logo">
+        <a href="/" className="logo">
           <img src="./imgs/ig_logo.png" alt="" />
         </a>
 
@@ -55,7 +55,7 @@ function HomePage() {
         </div>
         {/* Menu */}
         <div className="menu">
-          <a href="/home" className="active">
+          <a href="/" className="active">
             <span className="icon">
               <FunctionLineIcon />
             </span>
@@ -68,20 +68,20 @@ function HomePage() {
             Explore
           </a>
 
-          <a href="/home">
+          <a href="/">
             <span className="icon">
               <Notification4FillIcon />
             </span>
             Notification
           </a>
 
-          <a href="/home">
+          <a href="/">
             <span className="icon">
               <MailUnreadFillIcon />
             </span>
             Messages
           </a>
-          <a href="/home">
+          <a href="/">
             <span className="icon">
               <SendPlaneFillIcon />
             </span>
@@ -93,13 +93,13 @@ function HomePage() {
             </span>
             Profile
           </a>
-          <a href="/home">
+          <a href="/">
             <span className="icon">
               <Settings5FillIcon />
             </span>
             Settings
           </a>
-          <a href="/home">
+          <a href="/">
             <span className="icon">
               <LogoutBoxRFillIcon />
             </span>
@@ -123,7 +123,7 @@ function HomePage() {
             <Notification4FillIcon />
             <MailUnreadFillIcon />
             {/* Button */}
-            <a href="/home" className="btn">
+            <a href="/" className="btn">
               <AddCircleFillIcon />
               <div className="btn-text">Add Photo</div>
             </a>
@@ -133,7 +133,7 @@ function HomePage() {
         {/* ig stories */}
         <div className="stories-title">
           <h1>Stories</h1>
-          <a href="/home" className="btn">
+          <a href="/" className="btn">
             <PlayCircleFillIcon />
             <div className="text">Watch All</div>
           </a>
