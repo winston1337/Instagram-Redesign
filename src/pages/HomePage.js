@@ -143,7 +143,7 @@ function HomePage() {
           <div className="stories-img color">
             <img src="./imgs/ig_photo4.jpeg" alt="" />
             <div className="add">+</div>
-          </div>
+          </div> 
           {/* story 2*/}
           <div className="stories-img">
             <img src="./imgs/story_photo1.jpeg" alt="" />
@@ -188,6 +188,124 @@ function HomePage() {
           <div className="feed-text">
             <h2>Latest</h2>
             <span>Popular</span>
+          </div>
+        </div>
+        {/* Posts */}
+        <div className="main-posts">
+          {/* box 1 */}
+          <div className="post-box">
+            <img src="./imgs/ig_photo2.jpeg" alt="" />
+
+            <div className="post-info">
+              <div className="post-profile">
+                <div className="post-img">
+                  <img src="./imgs/profile_photo2.jpeg" alt="" />
+                </div>
+                <h3>Rashaad</h3>
+              </div>
+              <div className="likes">
+                <HeartLineIcon />
+                <span>84.5k</span>
+                <Chat1FillIcon />
+                <span>88</span>
+              </div>
+            </div>
+          </div>
+          <div className="post-box">
+            <img src="./imgs/ig_photo4.jpeg" alt="" />
+
+            <div className="post-info">
+              <div className="post-profile">
+                <div className="post-img">
+                  <img src="./imgs/profile_photo3.jpeg" alt="" />
+                </div>
+                <h3>Rashaad</h3>
+              </div>
+              <div className="likes">
+                <HeartLineIcon />
+                <span>84.5k</span>
+                <Chat1FillIcon />
+                <span>88</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="post-box">
+            <img src="./imgs/ig_photo3.jpeg" alt="" />
+
+            <div className="post-info">
+              <div className="post-profile">
+                <div className="post-img">
+                  <img src="./imgs/profile_photo4.jpeg" alt="" />
+                </div>
+                <h3>Rashaad</h3>
+              </div>
+              <div className="likes">
+                <HeartLineIcon />
+                <span>84.5k</span>
+                <Chat1FillIcon />
+                <span>88</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Posts */}
+        <div className="main-posts">
+          {/* box 1 */}
+          <div className="post-box">
+            <img src="./imgs/ig_photo2.jpeg" alt="" />
+
+            <div className="post-info">
+              <div className="post-profile">
+                <div className="post-img">
+                  <img src="./imgs/profile_photo2.jpeg" alt="" />
+                </div>
+                <h3>Rashaad</h3>
+              </div>
+              <div className="likes">
+                <HeartLineIcon />
+                <span>84.5k</span>
+                <Chat1FillIcon />
+                <span>88</span>
+              </div>
+            </div>
+          </div>
+          <div className="post-box">
+            <img src="./imgs/ig_photo4.jpeg" alt="" />
+
+            <div className="post-info">
+              <div className="post-profile">
+                <div className="post-img">
+                  <img src="./imgs/profile_photo3.jpeg" alt="" />
+                </div>
+                <h3>Rashaad</h3>
+              </div>
+              <div className="likes">
+                <HeartLineIcon />
+                <span>84.5k</span>
+                <Chat1FillIcon />
+                <span>88</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="post-box">
+            <img src="./imgs/ig_photo3.jpeg" alt="" />
+
+            <div className="post-info">
+              <div className="post-profile">
+                <div className="post-img">
+                  <img src="./imgs/profile_photo4.jpeg" alt="" />
+                </div>
+                <h3>Rashaad</h3>
+              </div>
+              <div className="likes">
+                <HeartLineIcon />
+                <span>84.5k</span>
+                <Chat1FillIcon />
+                <span>88</span>
+              </div>
+            </div>
           </div>
         </div>
         {/* Posts */}
