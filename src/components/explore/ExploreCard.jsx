@@ -1,7 +1,7 @@
 import React from "react";
 import './Explore.css';
 import { Avatar } from "@mui/material";
-// import Search from "./Search";
+
 
 const ExploreCard = ({username, caption, url}) => {
     return (

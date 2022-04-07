@@ -1,9 +1,11 @@
 import React from 'react';
 import ExploreCard from './ExploreCard';
+import Search from "./Search";
 
 const Wrapper = () => {
     return (
-   <>   <ExploreCard 
+   <>  <div><Search/></div>
+        <ExploreCard 
           username="John Doe" 
           url="/ExploreImages/wes-hicks-unsplash.jpg" 
           caption="Beautiful city skyline"/>
