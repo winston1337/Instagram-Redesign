@@ -61,7 +61,7 @@ function HomePage() {
             </span>
             Feed
           </a>
-          <a href="#">
+          <a href="/explore">
             <span className="icon">
               <SearchLineIcon />
             </span>
