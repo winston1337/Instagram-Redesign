@@ -1,6 +1,10 @@
 import React from "react"
 import {BrowserRouter as Router, Routes, Route} from "react-router"
-import ChatScreen from "./ChatScreen";
+// import ChatScreen from "./ChatScreen";
+import Chat from "./components/Chat.js";
+import Chats from "./components/Chats.js"
+import './App.css';
+import HomePage from './pages/HomePage';
 
 import "./app.css"
 
@@ -10,14 +14,15 @@ function App (){
         <Router>
           <Routes>
               <Route path="/chat/:person">
-                <Header>
-                  <ChatScreen />  
+                {/* <Header> */}
+                <HomePage />
+                  <Chat />
+                    {/* <ChatScreen />   */}
                       <Chats />
-                    
-                </Header>
+                {/* </Header> */}
               </Route>
               </Routes>
         </Router>
-    </div>
+        </div>
     )
 }

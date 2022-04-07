@@ -3,7 +3,7 @@ import './App.css';
 
 function InstaHome() {
   return (
-    <div className="App">
+    <div className="Home">
 
     </div>
   );
