@@ -204,7 +204,7 @@ function HomePage() {
                 <h3>Rashaad</h3>
               </div>
               <div className="likes">
-                <HeartLineIcon />
+                <HeartLineIcon  />
                 <span>84.5k</span>
                 <Chat1FillIcon />
                 <span>88</span>
