@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Wrapper from './components/explore/ExploreWrapper';
 import HomePage from './pages/HomePage';
+import Profile from './components/screens/Profile';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/home" element={<HomePage/>}/>
         <Route path="/explore" element={<Wrapper/>}/>
+        <Route path="/profile" element={<Profile/>}/>
       </Routes>
     </div>
     </Router>
@@ -17,3 +19,4 @@ function App() {
 }
 
 export default App;
+
