@@ -12,6 +12,7 @@ import AddCircleFillIcon from "remixicon-react/AddCircleFillIcon";
 import PlayCircleFillIcon from "remixicon-react/PlayCircleFillIcon";
 import HeartLineIcon from "remixicon-react/HeartLineIcon";
 import Chat1FillIcon from "remixicon-react/Chat1LineIcon";
+import './HomePage.css';
 
 function HomePage() {
   return (

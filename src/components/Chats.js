@@ -1,5 +1,6 @@
 import React from "react";
-import "./Chats.css";
+import "./Chat.css";
+import Chat from "./Chat" 
 
 function Chats (){
 return (
@@ -8,7 +9,7 @@ return (
     name ="Queen B"
     message="hey wassup"
     timestamp="2 minutes ago"
-    // profilePic="https://media.architecturaldigest.com/photos/6112a33f8c1207bc593eff74/16:9/w_2560%2Cc_limit/1253172998"
+    profilePic="https://media.architecturaldigest.com/photos/6112a33f8c1207bc593eff74/16:9/w_2560%2Cc_limit/1253172998"
     />
         <Chat
     name ="Jordan"
@@ -31,3 +32,5 @@ return (
 </div>
 
 )}
+
+export default Chats;
