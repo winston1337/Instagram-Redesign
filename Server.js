@@ -9,10 +9,10 @@ const app = express();
 let connection;
 
 const db_config = {
-    host: '',
-    user: '',
-    password: '',
-    database: ''
+    host: 'localhost',
+    user: 'root',
+    password: 'bostonceltics',
+    database: 'instagram'
 };
 
 app.use(cors());
