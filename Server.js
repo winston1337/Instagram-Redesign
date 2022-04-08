@@ -18,7 +18,7 @@ const db_config = {
 app.use(cors());
 app.use(express.json());
 
-app.get('/api/posts', (req, res) => {
+app.get('/api/instagram', (req, res) => {
     if (!connection) res.send([]);
 
     connection.query('SELECT * FROM posts', (err, result) => {
