@@ -13,7 +13,7 @@ function InstaNav() {
   return (
     <div className="navbar">
       <div className="navbar_brand">
-       <img src="./insta_logo_darkMode.png" className="navbar_logo" alt='logo'/>
+       <img src="./instLogo_lightMode.png" className="navbar_logo" alt='logo'/>
       </div>
 
       <div className="navbar_search">
