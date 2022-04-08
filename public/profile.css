@@ -1,0 +1,243 @@
+* {
+  /* IMPORTANT */
+
+  /* asterick (universal selector) is useful when you want to select all elements on the page. */
+
+  margin: 0;
+  padding: 0;
+  font-family: georgia, sans-serif;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  justify-content: space-around;
+  grid-row-gap: 0px;
+  margin-left: -17px;
+  margin-right: 15px;
+}
+
+/* .item {
+  width: 100%;
+  padding: 1rem;
+} */
+
+.buttonContainer {
+  display: flex;
+}
+
+.followButton {
+  background-color: #0095f6;
+  text-decoration: none;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  margin-left: 1rem;
+  width: 63px;
+  height: 18px;
+}
+
+.messageButton {
+  height: 1%;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-left: 1rem;
+  background-color: transparent;
+  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+  width: 63px;
+  height: 18px;
+}
+
+.suggestion {
+  margin-left: 1rem;
+  color: rgb(255, 255, 255);
+  background-color: #18b3b2;
+  height: 17px;
+  width: 17px;
+  border: none;
+  border-radius: 2px;
+}
+
+.posts {
+  font-size: 10px;
+  margin-left: 4px;
+}
+
+.check {
+  width: 25px;
+  height: 23px;
+  margin-top: -2px;
+  vertical-align: super;
+}
+
+.numPosts {
+  margin-left: -13px;
+}
+
+.numFollowing {
+  margin-right: 86px;
+}
+
+.gridPosts {
+  margin-left: -15px;
+}
+
+.grid {
+  width: 12px;
+  height: 12px;
+  margin-left: 125px;
+  position: relative;
+  margin-bottom: -2px;
+}
+
+.bio {
+  font-size: small;
+  text-align: left;
+}
+
+.bioIr {
+  padding-bottom: 5px;
+}
+
+.bioHashtag {
+  color: rgb(5, 128, 205);
+}
+
+.upArrow {
+  width: 10px;
+  height: 10px;
+}
+
+.downArrow {
+  width: 10px;
+  height: 10px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 10px auto;
+  max-width: 800px;
+  background-color: transparent;
+  padding: 1rem;
+}
+
+.card {
+  text-decoration: none;
+  border-radius: 4px;
+  margin-left: 1rem;
+  background-color: transparent;
+  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+  width: 100px;
+  height: 100px;
+  padding-bottom: 1rem;
+  transition-duration: 0.5s;
+}
+
+.card:hover {
+  width: 110px;
+  height: 110px;
+  transition-duration: 0.5s;
+}
+
+.card-image {
+  height: 50%;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.card-image img {
+  width: 45%;
+  height: 95%;
+}
+
+.card-detail {
+  background: white;
+  font-size: 11px;
+  text-align: center;
+}
+
+.suggestionImage {
+  width: 64%;
+  height: 85%;
+  border-radius: 40px;
+}
+
+.suggestionRealName {
+  color: rgb(145, 145, 145);
+  margin-top: 2px;
+}
+
+.suggestionFollow {
+  background-color: #18b3b2;
+  border-radius: 3px;
+  color: white;
+  border: none;
+  width: 60px;
+  font-size: 11px;
+  height: 16px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+
+.suggestionFollowing {
+  background-color: #da61da;
+  border-radius: 3px;
+  color: white;
+  border: none;
+  width: 60px;
+  font-size: 11px;
+  height: 16px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+
+.suggestionBorder {
+  border-radius: 4px;
+  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+}
+
+.suggestedText {
+  color: rgb(145, 145, 145);
+  position: absolute;
+  font-size: 10px;
+  margin-left: 33px;
+  margin-top: 10px;
+}
+
+.bioFollowed {
+  font-size: 10px;
+  padding-top: 4px;
+}
+
+.bioFollowedBy {
+  color: rgb(145, 145, 145);
+}
+
+/* .followFollowing{
+    background-image:url("./checkmarkpat2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0095f6;
+    border-radius: 3px;
+    color: #0095f6;
+    border: none;
+    width: 45px;
+    height: 15px;
+    margin-top: 5px;
+  } */
+
+.profileImage {
+  width: 100%;
+  height: 85%;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  transition-duration: 0.5s;
+}
+
+.profileImage:hover {
+  width: 105%;
+  height: 90%;
+  transition-duration: 0.5s;
+}
