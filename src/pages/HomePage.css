@@ -196,7 +196,8 @@
   }
   
   .btn-text {
-    color: #fff;
+    color: #000;
+    font-size: 1.3rem;
   }
   
   .stories-title {
