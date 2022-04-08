@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import "./profile.css";
+import './profile.css';
 
 const Profile = () => {
   const [suggestionMenu, setSuggestionMenu] = useState(false);
