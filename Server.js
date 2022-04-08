@@ -9,10 +9,10 @@ const app = express();
 let connection;
 
 const db_config = {
-    host: 'localhost',
-    user: 'root',
-    password: 'bostonceltics',
-    database: 'instagram'
+    host: 'us-cdbr-east-05.cleardb.net',
+    user: 'b9cbc5db38aa3f',
+    password: '4a31dd05',
+    database: 'heroku_47afe3083bec50c'
 };
 
 app.use(cors());
