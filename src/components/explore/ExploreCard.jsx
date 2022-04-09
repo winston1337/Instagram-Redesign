@@ -5,7 +5,6 @@ import { Avatar } from "@mui/material";
 
 const ExploreCard = ({username, caption, url}) => {
     return (
-       <> 
             <div className="post">
                 <div className="post_header">
                 <Avatar
@@ -18,8 +17,6 @@ const ExploreCard = ({username, caption, url}) => {
                 <img className="post_image" src={url} alt=""/>
                 <h4 className="post_text"><strong>{username}: </strong>{caption}</h4>
             </div>
-       </>
-       
     )
 }
 
