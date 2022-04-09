@@ -123,14 +123,14 @@ const Activity = () => {
                 className="suggestionFollow"
                 onClick={toggleFollowingBeeg}
               >
-                Follow
+                Follow back
               </button>
             )}
           </div>
           <div class="activity-card">
-            <img src="/actimg/yoshi.jpeg" class="user-img" alt="" />
+            <img src="/actimg/black.webp" class="user-img" alt="" />
             <p class="activity">
-              <b>@beegbren</b> liked your post
+              <b>@kendricklamar</b> liked your post
             </p>
             <img src="./imgs/ig_photo3.jpeg" class="activity-post" alt="" />
           </div>
