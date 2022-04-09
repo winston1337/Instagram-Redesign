@@ -7,9 +7,17 @@ const Profile = () => {
     setSuggestionMenu(!suggestionMenu);
   };
 
+
+// const [suggestionMenu2, setSuggestionMenu2] = useState(false);
+// const handleToggle = () => {
+// setSuggestionMenu2(!suggestionMenu2);
+// };
+
+
   const [followingIr, setFollowingIr] = useState(false);
   const toggleFollowingIr = () => {
     setFollowingIr(!followingIr);
+    setSuggestionMenu(true);
   };
 
   const [followingAl, setFollowingAl] = useState(false);
