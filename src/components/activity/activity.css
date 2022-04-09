@@ -1,6 +1,6 @@
 .notifications {
-  width: 40rem;
-  max-width: 40rem;
+  width: 60rem;
+
   margin: 4rem auto;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .activity-log {
-  border: 1px solid #000;
+  border: 0.8rem solid #000;
 }
 
 .activity-card {
@@ -31,5 +31,7 @@
 .activity-post {
   width: 50px;
   height: 50px;
-  justify-self: space-between;
+  display: block;
+  margin-left: auto;
+  border-radius: 5%;
 }
