@@ -4,12 +4,26 @@
   margin: 4rem auto;
 }
 
-.notifications h3 {
+.notifications h1 {
   padding: 1rem 0 !important;
+  text-align: left;
 }
 
 .activity-log {
-  border: 0.8rem solid #000;
+  border: 0.4rem solid black;
+  max-height: 55rem;
+  overflow: scroll;
+}
+.activity-log h2 {
+  text-align: left;
+  padding: 1rem 0;
+  padding-left: 1rem;
+}
+.activity-log button {
+  display: block;
+  margin-left: auto;
+  height: 1.5rem;
+  width: 4.5rem;
 }
 
 .activity-card {
