@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './profile.css';
+import "./profile.css";
 
 const Profile = () => {
   const [suggestionMenu, setSuggestionMenu] = useState(false);
@@ -7,9 +7,15 @@ const Profile = () => {
     setSuggestionMenu(!suggestionMenu);
   };
 
+  // const [suggestionMenu2, setSuggestionMenu2] = useState(false);
+  // const handleToggle = () => {
+  // setSuggestionMenu2(!suggestionMenu2);
+  // };
+
   const [followingIr, setFollowingIr] = useState(false);
   const toggleFollowingIr = () => {
     setFollowingIr(!followingIr);
+    setSuggestionMenu(true);
   };
 
   const [followingAl, setFollowingAl] = useState(false);
@@ -44,13 +50,13 @@ const Profile = () => {
       >
         <div>
           <img
-            style={{ width: "80px", height: "80px", borderRadius: "80px" }} alt="img"
+            style={{ width: "168px", height: "168px", borderRadius: "80px" }}
             src="https://images.unsplash.com/photo-1633113247735-45a969eb9266?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5zdGFncmFtfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
           />
         </div>
-        <div>
+        <div className="infoContainer">
           <div class="buttonContainer">
-            <h4>instagramredesign</h4>
+            <h2>instagramredesign</h2>
             <img
               className="check" alt="img"
               src="https://thumbs.dreamstime.com/b/approved-icon-profile-verification-accept-badge-quality-check-mark-sticker-tick-vector-illustration-128840911.jpg"
@@ -83,6 +89,7 @@ const Profile = () => {
               justifyContent: "space-between",
               width: "110%",
               padding: "1rem",
+              fontSize: "25px",
             }}
           >
             <h6 className="numPosts">12 posts</h6>
@@ -243,7 +250,14 @@ const Profile = () => {
         </div>
       ) : null}
 
-      <hr style={{ marginTop: "1rem" }}></hr>
+      <hr
+        style={{
+          marginTop: "1rem",
+          marginBottom: "1rem",
+          width: "160%",
+          marginLeft: "-100px",
+        }}
+      ></hr>
 
       <div className="gridPosts">
         <img
