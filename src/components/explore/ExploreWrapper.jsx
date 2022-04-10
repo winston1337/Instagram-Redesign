@@ -6,7 +6,7 @@ const Wrapper = () => {
     const [cards, setCards] = useState([]);
     const [query, setQuery] = useState('');
     useEffect(() => {
-        window.fetch('/api/instagram')
+        window.fetch('/api/posts')
             .then((response) => response.text())
             .then((data) => JSON.parse(data))
             .then((cards) => {setCards(cards)})
