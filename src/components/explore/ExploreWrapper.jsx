@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import ExploreCard from './ExploreCard';
-// import Search from "./Search";
+
 
 const Wrapper = () => {
     const [cards, setCards] = useState([]);
