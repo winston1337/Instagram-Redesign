@@ -18,7 +18,7 @@ const db_config = {
 app.use(cors());
 app.use(express.json());
 
-app.get('/api/instagram', (req, res) => {
+app.get('/api/heroku_47afe3083bec50c', (req, res) => {
     if (!connection) res.send([]);
 
     connection.query('SELECT * FROM posts', (err, result) => {
