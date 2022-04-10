@@ -1,13 +1,11 @@
 * {
   /* IMPORTANT */
-
   /* asterick (universal selector) is useful when you want to select all elements on the page. */
-
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -16,20 +14,16 @@
   grid-row-gap: 0px;
   margin: 0 auto;
 }
-
 /* .item {
   width: 100%;
   padding: 1rem;
 } */
-
-.infoContainer{
+.infoContainer {
   margin-left: 30px;
 }
-
 .buttonContainer {
   display: flex;
 }
-
 .followButton {
   background-color: #0095f6;
   text-decoration: none;
@@ -40,7 +34,6 @@
   width: 63px;
   height: 18px;
 }
-
 .messageButton {
   height: 1%;
   text-decoration: none;
@@ -51,7 +44,6 @@
   width: 85px;
   height: 27px;
 }
-
 .suggestion {
   margin-left: 1rem;
   color: rgb(255, 255, 255);
@@ -61,29 +53,21 @@
   border: none;
   border-radius: 2px;
 }
-
 .posts {
   font-size: 17px;
   margin-left: 4px;
 }
-
 .check {
   width: 50px;
   height: 50px;
   margin-top: -10px;
   vertical-align: super;
 }
-
 .numPosts {
   margin-left: -13px;
 }
-
 .numFollowing {
   margin-right: 86px;
-}
-
-.gridPosts {
-  margin-left: -45px;
 }
 
 .grid {
@@ -93,32 +77,28 @@
   position: relative;
   margin-bottom: -2px;
 }
-
 .bio {
   font-size: small;
   text-align: left;
 }
-
 .bioIr {
   padding-bottom: 5px;
   font-size: 18px;
 }
-
 .bioHashtag {
   color: rgb(5, 128, 205);
   font-size: 18px;
 }
-
 .upArrow {
   width: 10px;
   height: 10px;
+  background: transparent;
 }
-
 .downArrow {
   width: 10px;
   height: 10px;
+  background: transparent;
 }
-
 .row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -127,7 +107,6 @@
   background-color: transparent;
   padding: 1rem;
 }
-
 .card {
   text-decoration: none;
   border-radius: 4px;
@@ -139,39 +118,38 @@
   padding-bottom: 1rem;
   transition-duration: 0.5s;
 }
-
 .card:hover {
   width: 175px;
   height: 160px;
   transition-duration: 0.5s;
 }
-
 .card-image {
   height: 50%;
   text-align: center;
   padding-top: 1rem;
 }
-
 .card-image img {
-  width: 45%;
-  height: 95%;
+  width: 40%;
+  height: 120%;
 }
-
 .card-detail {
-  background: white;
+  background: none;
   font-size: 11px;
   text-align: center;
+  padding-top: 15px;
 }
-
 .suggestionImage {
   width: 64%;
   height: 85%;
   border-radius: 40px;
 }
-
 .suggestionRealName {
   color: rgb(145, 145, 145);
   margin-top: 2px;
+}
+
+.nameOfSuggestion {
+  padding-bottom: 4px;
 }
 
 .suggestionFollow {
@@ -182,28 +160,24 @@
   width: 70px;
   font-size: 14px;
   height: 25px;
-  margin-top: 1px;
   margin-left: 5px;
 }
-
 .suggestionFollowing {
   background-color: #da61da;
   border-radius: 3px;
-    color: white;
-    border: none;
-    width: 70px;
-    font-size: 14px;
-    height: 25px;
-    margin-top: 1px;
-    margin-left: 5px;
+  color: white;
+  border: none;
+  width: 70px;
+  font-size: 14px;
+  height: 25px;
+  margin-top: 1px;
+  margin-left: 5px;
 }
-
 .suggestionBorder {
   border-radius: 4px;
   border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
   width: fit-content;
 }
-
 .suggestedText {
   color: rgb(145, 145, 145);
   position: absolute;
@@ -211,28 +185,13 @@
   margin-left: 33px;
   margin-top: 10px;
 }
-
 .bioFollowed {
   font-size: 13px;
   padding-top: 4px;
 }
-
 .bioFollowedBy {
   color: rgb(145, 145, 145);
 }
-
-/* .followFollowing{
-    background-image:url("./checkmarkpat2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #0095f6;
-    border-radius: 3px;
-    color: #0095f6;
-    border: none;
-    width: 45px;
-    height: 15px;
-    margin-top: 5px;
-  } */
 
 .profileImage {
   width: 350px;
@@ -241,7 +200,6 @@
   border-radius: 1.5rem;
   transition-duration: 0.5s;
 }
-
 .profileImage:hover {
   width: 375px;
   height: 375px;
