@@ -5,6 +5,7 @@ import Wrapper from './components/explore/ExploreWrapper';
 import HomePage from './pages/HomePage';
 import Profile from './components/screens/Profile';
 import Contact from "./components/contact/Contact.jsx";
+import Activity from "./components/activity/activity.js";
 // import InstaFooter from "./components/InstaFooter.js";
 
 function App (){
@@ -19,6 +20,7 @@ function App (){
               <Route path="/explore" element={<Wrapper/>}/>
               <Route path="/chat" element={<Chats/>}/>
               <Route path="/contact" element={<Contact/>}/>
+              <Route path="/activity" element={<Activity/>}/>
 
             </Routes>
             {/* <InstaFooter/> */}
