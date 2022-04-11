@@ -55,7 +55,7 @@ const Profile = () => {
           />
         </div>
         <div className="infoContainer">
-          <div class="buttonContainer">
+          <div className="buttonContainer">
             <h2>instagramredesign</h2>
             <img
               className="check" alt="img"
@@ -78,7 +78,7 @@ const Profile = () => {
               {suggestionMenu ? (
                 <i class="fa fa-angle-up" aria-hidden="true"></i>
               ) : (
-                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                <i className="fa fa-angle-down" aria-hidden="true"></i>
               )}
             </button>
           </div>
@@ -117,7 +117,7 @@ const Profile = () => {
                     src="https://images.unsplash.com/photo-1559244673-9cee88d551f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60"
                   />
                 </div>
-                <div class="card-detail">
+                <div className="card-detail">
                   <div className="suggestionName">
                     <p>
                       <b>Al</b>
@@ -144,14 +144,14 @@ const Profile = () => {
                 </div>
               </div>
 
-              <div class="card">
-                <div class="card-image">
+              <div className="card">
+                <div className="card-image">
                   <img
                     className="suggestionImage" alt="img"
                     src="https://images.unsplash.com/photo-1568429838920-de3a3aa8cf1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60"
                   />
                 </div>
-                <div class="card-detail">
+                <div className="card-detail">
                   <div className="suggestionName">
                     <p>
                       <b>Rick</b>
@@ -178,14 +178,14 @@ const Profile = () => {
                 </div>
               </div>
 
-              <div class="card">
-                <div class="card-image">
+              <div className="card">
+                <div className="card-image">
                   <img
                     className="suggestionImage" alt="img"
                     src="https://images.unsplash.com/photo-1485541653056-e688bdf8319e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60"
                   />
                 </div>
-                <div class="card-detail">
+                <div className="card-detail">
                   <div className="suggestionName">
                     <p>
                       <b>Shine</b>
@@ -212,14 +212,14 @@ const Profile = () => {
                 </div>
               </div>
 
-              <div class="card">
+              <div className="card">
                 <div class="card-image">
                   <img
                     className="suggestionImage" alt="img"
                     src="https://images.unsplash.com/photo-1465188035480-cf3a60801ea5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60"
                   />
                 </div>
-                <div class="card-detail">
+                <div className="card-detail">
                   <div className="suggestionName">
                     <p>
                       <b>Jared</b>
@@ -250,13 +250,7 @@ const Profile = () => {
         </div>
       ) : null}
 
-      <hr
-        style={{
-          marginTop: "1rem",
-          marginBottom: "1rem",
-          width: "160%",
-          marginLeft: "-100px",
-        }}
+      <hr className="line"
       ></hr>
 
       <div className="gridPosts">
@@ -264,7 +258,7 @@ const Profile = () => {
           className="grid" alt="img"
           src="https://w7.pngwing.com/pngs/877/110/png-transparent-magic-square-safety-net-rectangle-mathematics-black-and-white-grid-miscellaneous-angle-furniture-thumbnail.png"
         />
-        <span class="posts">POSTS</span>
+        <span className="posts">POSTS</span>
       </div>
 
       <div className="gallery">
