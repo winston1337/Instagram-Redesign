@@ -9,53 +9,54 @@ import ExploreIcon from "@mui/icons-material/Explore";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import Badge from "@mui/material/Badge";
 
-class InstaNav extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      toggleNotification: false,
-    };
-  }
+function InstaNav() {
+  return (
+    <div className="navbar">
+      <div className="navbar_brand">
+        <img
+          src="./instaLogo_lightMode.png"
+          className="navbar_logo"
+          alt="logo"
+        />
+      </div>
 
-  toggleNotification = () => {
-    const { toggleNotification } = this.state;
-    this.setState({ toggleNotification: !toggleNotification });
-  };
-  render() {
-    return (
-      <div className="navbar">
-        <div className="navbar_brand">
-          <img
-            src="./instaLogo_lightMode.png"
-            className="navbar_logo"
-            alt="logo"
-          />
+      <div className="navbar_search">
+        <div className="search">
+          <SearchIcon className="search_icon" />
+          <input type="text" placeholder="Search" className="search_input" />
         </div>
 
-        <div className="navbar_search">
-          <div className="search">
-            <SearchIcon className="search_icon" />
-            <input type="text" placeholder="Search" className="search_input" />
-          </div>
-        </div>
+      <div className="navbar_icons">
+        <button onClick={<HomeIcon className="nav_icon" />}></button>
 
-        <div className="navbar_icons">
-          <HomeIcon className="nav_icon" />
-          <Badge badgeContent={4} color="primary">
-            <SendIcon className="nav_icon send_icon" />
-          </Badge>
-          <AddIcon className="nav_icon" />
-          <ExploreIcon className="nav_icon" />
-          <FavoriteBorderOutlinedIcon className="nav_icon" />
-          <Avatar
-            alt="Instagram"
-            src="./profile_pic_insta.webp"
-            className="avatar"
-          />
-        </div>
+        <button onClick={<SendIcon className="nav_icon" />}></button>
+
+        <button onClick={<AddIcon className="nav_icon" />}></button>
+
+        <button onClick={<ExploreIcon className="nav_icon" />}></button>
+
+        <button
+          onClick={<FavoriteBorderOutlinedIcon className="nav_icon" />}
+        ></button>
+
+        <button
+          onClick={
+            <Avatar
+              alt="Instagram"
+              src="./profile_pic_insta.webp"
+              className="avatar"
+            />
+          }
+        ></button>
+      </div>
+      </div>
       </div>
     );
-  }
+    
+  
 }
 
+
 export default InstaNav;
+
+
