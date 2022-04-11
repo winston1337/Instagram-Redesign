@@ -56,13 +56,4 @@ function InstaNav() {
 
 export default InstaNav;
 
-{
-  /* <HomeIcon className="nav_icon"/>
-        <Badge badgeContent={4} color="primary">
-        <SendIcon className="nav_icon send_icon"/>
-        </Badge>
-        <AddIcon className="nav_icon"/>
-        <ExploreIcon className="nav_icon"/>
-        <FavoriteBorderOutlinedIcon className="nav_icon"/>
-        <Avatar alt="Instagram" src="./profile_pic_insta.webp" className="avatar"/> */
-}
+
