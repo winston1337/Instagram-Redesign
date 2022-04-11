@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./profile.css";
+import Navbar from "../navbar/Header";
 
 const Profile = () => {
   const [suggestionMenu, setSuggestionMenu] = useState(false);
@@ -39,7 +40,8 @@ const Profile = () => {
   };
 
   return (
-    <div style={{ maxWidth: "550px", margin: "0px auto" }}>
+    <> <Navbar/>
+    <div style={{ maxWidth: "675px", margin: "0px auto" }}>
       <div
         style={{
           display: "flex",
@@ -50,7 +52,12 @@ const Profile = () => {
       >
         <div>
           <img
-            style={{ width: "168px", height: "168px", borderRadius: "80px" }} alt="img"
+            style={{
+              width: "168px",
+              height: "168px",
+              borderRadius: "80px",
+              marginRight: "20px",
+            }} alt="img"
             src="https://images.unsplash.com/photo-1633113247735-45a969eb9266?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5zdGFncmFtfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
           />
         </div>
@@ -61,7 +68,7 @@ const Profile = () => {
               className="check" alt="img"
               src="https://thumbs.dreamstime.com/b/approved-icon-profile-verification-accept-badge-quality-check-mark-sticker-tick-vector-illustration-128840911.jpg"
             />
-            <button className="messageButton">Message</button>
+            <button className="messageButton" href="/chat">Message</button>
             {followingIr ? (
               <button
                 className="suggestionFollowing"
@@ -76,9 +83,17 @@ const Profile = () => {
             )}
             <button className="suggestion" onClick={handleToggle}>
               {suggestionMenu ? (
-                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                <img
+                  className="upArrow"
+                  src="/profileImage/upArrow.png"
+                  alt="upArrow"
+                />
               ) : (
-                <i className="fa fa-angle-down" aria-hidden="true"></i>
+                <img
+                  className="downArrow"
+                  src="/profileImage/downArrow.png"
+                  alt="downArrow"
+                />
               )}
             </button>
           </div>
@@ -124,7 +139,7 @@ const Profile = () => {
                     </p>
                   </div>
                   <div className="suggestionRealName">
-                    <p>Al Smith</p>
+                    <p className="nameOfSuggestion">Al Smith</p>
                   </div>
                   {followingAl ? (
                     <button
@@ -158,7 +173,7 @@ const Profile = () => {
                     </p>
                   </div>
                   <div className="suggestionRealName">
-                    <p>Rick Name</p>
+                    <p className="nameOfSuggestion">Rick Name</p>
                   </div>
                   {followingRick ? (
                     <button
@@ -192,7 +207,7 @@ const Profile = () => {
                     </p>
                   </div>
                   <div className="suggestionRealName">
-                    <p>Shine Range</p>
+                    <p className="nameOfSuggestion">Shine Range</p>
                   </div>
                   {followingShine ? (
                     <button
@@ -226,7 +241,7 @@ const Profile = () => {
                     </p>
                   </div>
                   <div className="suggestionRealName">
-                    <p>Jared Real</p>
+                    <p className="nameOfSuggestion">Jared Real</p>
                   </div>
                   {followingJared ? (
                     <button
@@ -250,7 +265,13 @@ const Profile = () => {
         </div>
       ) : null}
 
-      <hr className="line"
+      <hr
+        style={{
+          marginTop: "1rem",
+          marginBottom: "1rem",
+          width: "160%",
+          marginLeft: "-12rem",
+        }}
       ></hr>
 
       <div className="gridPosts">
@@ -312,6 +333,7 @@ const Profile = () => {
         />
       </div>
     </div>
+    </>
   );
 };
 
