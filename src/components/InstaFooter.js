@@ -28,7 +28,7 @@ function InstaFooter() {
         <div className="row">
           <div className="copyRight">
             <p className="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
-         <a href="#">The MetaSquad</a>.
+         <a href="/">The MetaSquad</a>.
             </p>
           </div>
         </div>

@@ -55,5 +55,3 @@ function InstaNav() {
 }
 
 export default InstaNav;
-
-

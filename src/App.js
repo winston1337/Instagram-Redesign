@@ -5,7 +5,7 @@ import Wrapper from './components/explore/ExploreWrapper';
 import HomePage from './pages/HomePage';
 import Profile from './components/screens/Profile';
 import Contact from "./components/contact/Contact.jsx";
-
+// import InstaFooter from "./components/InstaFooter.js";
 
 function App (){
     return (
@@ -19,11 +19,11 @@ function App (){
               <Route path="/explore" element={<Wrapper/>}/>
               <Route path="/chat" element={<Chats/>}/>
               <Route path="/contact" element={<Contact/>}/>
+
             </Routes>
-            <InstaFooter/>
+            {/* <InstaFooter/> */}
           </Router>
         </div>
     )
 }
-
 export default App;
