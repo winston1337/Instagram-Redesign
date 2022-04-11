@@ -75,13 +75,13 @@ function HomePage() {
             Notification
           </a>
 
-          <a href="/">
+          <a href="/chat">
             <span className="icon">
               <MailUnreadFillIcon />
             </span>
             Messages
           </a>
-          <a href="/">
+          <a href="/chat">
             <span className="icon">
               <SendPlaneFillIcon />
             </span>

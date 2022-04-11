@@ -50,7 +50,7 @@ const Profile = () => {
       >
         <div>
           <img
-            style={{ width: "168px", height: "168px", borderRadius: "80px" }}
+            style={{ width: "168px", height: "168px", borderRadius: "80px" }} alt="img"
             src="https://images.unsplash.com/photo-1633113247735-45a969eb9266?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5zdGFncmFtfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
           />
         </div>
