@@ -19,7 +19,7 @@ function HomePage() {
     <body>
       {/* sidebar */}
       <div className="sidebar">
-        <a href="/" className="logo">
+        <a href="#" className="logo">
           <img src="./imgs/ig_logo.png" alt="" />
         </a>
 
@@ -45,7 +45,7 @@ function HomePage() {
           {/* box 2 */}
           <div className="box">
             <h3>2.1k</h3>
-            <span>Followers</span>
+            <span>Following</span>
           </div>
           {/* box 3 */}
           <div className="box">
@@ -55,51 +55,51 @@ function HomePage() {
         </div>
         {/* Menu */}
         <div className="menu">
-          <a href="/" className="active">
+          <a href="#" className="active">
             <span className="icon">
               <FunctionLineIcon />
             </span>
             Feed
           </a>
-          <a href="/explore">
+          <a href="#">
             <span className="icon">
               <SearchLineIcon />
             </span>
             Explore
           </a>
 
-          <a href="/">
+          <a href="#">
             <span className="icon">
               <Notification4FillIcon />
             </span>
             Notification
           </a>
 
-          <a href="/chat">
+          <a href="#">
             <span className="icon">
               <MailUnreadFillIcon />
             </span>
             Messages
           </a>
-          <a href="/chat">
+          <a href="#">
             <span className="icon">
               <SendPlaneFillIcon />
             </span>
             Direct
           </a>
-          <a href="/profile">
+          <a href="#">
             <span className="icon">
               <BarChart2FillIcon />
             </span>
-            Profile
+            Stats
           </a>
-          <a href="/">
+          <a href="#">
             <span className="icon">
               <Settings5FillIcon />
             </span>
             Settings
           </a>
-          <a href="/">
+          <a href="#">
             <span className="icon">
               <LogoutBoxRFillIcon />
             </span>
@@ -123,7 +123,7 @@ function HomePage() {
             <Notification4FillIcon />
             <MailUnreadFillIcon />
             {/* Button */}
-            <a href="/" className="btn">
+            <a href="#" className="btn">
               <AddCircleFillIcon />
               <div className="btn-text">Add Photo</div>
             </a>
@@ -133,7 +133,7 @@ function HomePage() {
         {/* ig stories */}
         <div className="stories-title">
           <h1>Stories</h1>
-          <a href="/" className="btn">
+          <a href="" className="btn">
             <PlayCircleFillIcon />
             <div className="text">Watch All</div>
           </a>
@@ -202,7 +202,7 @@ function HomePage() {
                 <div className="post-img">
                   <img src="./imgs/profile_photo2.jpeg" alt="" />
                 </div>
-                <h3>Rashaad</h3>
+                <h3>Lolo</h3>
               </div>
               <div className="likes">
                 <HeartLineIcon  />
@@ -220,7 +220,7 @@ function HomePage() {
                 <div className="post-img">
                   <img src="./imgs/profile_photo3.jpeg" alt="" />
                 </div>
-                <h3>Rashaad</h3>
+                <h3>Winter</h3>
               </div>
               <div className="likes">
                 <HeartLineIcon />
@@ -239,7 +239,7 @@ function HomePage() {
                 <div className="post-img">
                   <img src="./imgs/profile_photo4.jpeg" alt="" />
                 </div>
-                <h3>Rashaad</h3>
+                <h3>Chase</h3>
               </div>
               <div className="likes">
                 <HeartLineIcon />
@@ -254,14 +254,14 @@ function HomePage() {
         <div className="main-posts">
           {/* box 1 */}
           <div className="post-box">
-            <img src="./imgs/ig_photo2.jpeg" alt="" />
+            <img src="./imgs/photo_4.jpeg" alt="" />
 
             <div className="post-info">
               <div className="post-profile">
                 <div className="post-img">
                   <img src="./imgs/profile_photo2.jpeg" alt="" />
                 </div>
-                <h3>Rashaad</h3>
+                <h3>Lolo</h3>
               </div>
               <div className="likes">
                 <HeartLineIcon />
@@ -272,14 +272,14 @@ function HomePage() {
             </div>
           </div>
           <div className="post-box">
-            <img src="./imgs/ig_photo4.jpeg" alt="" />
+            <img src="./imgs/photo_5.jpeg" alt="" />
 
             <div className="post-info">
               <div className="post-profile">
                 <div className="post-img">
                   <img src="./imgs/profile_photo3.jpeg" alt="" />
                 </div>
-                <h3>Rashaad</h3>
+                <h3>Winter</h3>
               </div>
               <div className="likes">
                 <HeartLineIcon />
@@ -291,14 +291,14 @@ function HomePage() {
           </div>
 
           <div className="post-box">
-            <img src="./imgs/ig_photo3.jpeg" alt="" />
+            <img src="./imgs/photo_6.jpeg" alt="" />
 
             <div className="post-info">
               <div className="post-profile">
                 <div className="post-img">
                   <img src="./imgs/profile_photo4.jpeg" alt="" />
                 </div>
-                <h3>Rashaad</h3>
+                <h3>Chase</h3>
               </div>
               <div className="likes">
                 <HeartLineIcon />
@@ -313,14 +313,14 @@ function HomePage() {
         <div className="main-posts">
           {/* box 1 */}
           <div className="post-box">
-            <img src="./imgs/ig_photo2.jpeg" alt="" />
+            <img src="./imgs/photo_7.jpeg" alt="" />
 
             <div className="post-info">
               <div className="post-profile">
                 <div className="post-img">
                   <img src="./imgs/profile_photo2.jpeg" alt="" />
                 </div>
-                <h3>Rashaad</h3>
+                <h3>Lolo</h3>
               </div>
               <div className="likes">
                 <HeartLineIcon />
@@ -331,14 +331,14 @@ function HomePage() {
             </div>
           </div>
           <div className="post-box">
-            <img src="./imgs/ig_photo4.jpeg" alt="" />
+            <img src="./imgs/photo_8.jpeg" alt="" />
 
             <div className="post-info">
               <div className="post-profile">
                 <div className="post-img">
                   <img src="./imgs/profile_photo3.jpeg" alt="" />
                 </div>
-                <h3>Rashaad</h3>
+                <h3>Winter</h3>
               </div>
               <div className="likes">
                 <HeartLineIcon />
@@ -350,14 +350,14 @@ function HomePage() {
           </div>
 
           <div className="post-box">
-            <img src="./imgs/ig_photo3.jpeg" alt="" />
+            <img src="./imgs/photo_9.jpeg" alt="" />
 
             <div className="post-info">
               <div className="post-profile">
                 <div className="post-img">
                   <img src="./imgs/profile_photo4.jpeg" alt="" />
                 </div>
-                <h3>Rashaad</h3>
+                <h3>chase</h3>
               </div>
               <div className="likes">
                 <HeartLineIcon />
