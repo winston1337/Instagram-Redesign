@@ -1,5 +1,5 @@
 # Instagram Redesign
-My group and I decided that we wanted to resdesign the Instagram website. We spent time focusing on redesigning some of the pages/things on Instagram that include the Home page, Messages, Activity/Notifications, Nav/Footer, and Explore page. We were able to use our knowledge and creativty to overall give Instagram a different look!
+My group and I decided that we wanted to resdesign the Instagram website. We spent time focusing on redesigning some of the pages/things on Instagram that include the Home page, Messages, Activity/Notifications, Nav/Footer, and Explore page. We were able to use our knowledge and creativty to overall give Instagram a new look!
 
 ## Getting Started
 1. Clone this repository into your terminal --->
