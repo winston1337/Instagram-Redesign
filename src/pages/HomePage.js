@@ -19,7 +19,7 @@ function HomePage() {
     <body>
       {/* sidebar */}
       <div className="sidebar">
-        <a href="#" className="logo">
+        <a href="/" className="logo">
           <img src="./imgs/ig_logo.png" alt="" />
         </a>
 
@@ -55,51 +55,51 @@ function HomePage() {
         </div>
         {/* Menu */}
         <div className="menu">
-          <a href="#" className="active">
+          <a href="/" className="active">
             <span className="icon">
               <FunctionLineIcon />
             </span>
             Feed
           </a>
-          <a href="#">
+          <a href="/explore">
             <span className="icon">
               <SearchLineIcon />
             </span>
             Explore
           </a>
 
-          <a href="#">
+          <a href="/">
             <span className="icon">
               <Notification4FillIcon />
             </span>
             Notification
           </a>
 
-          <a href="#">
+          <a href="/chat">
             <span className="icon">
               <MailUnreadFillIcon />
             </span>
             Messages
           </a>
-          <a href="#">
+          <a href="/chat">
             <span className="icon">
               <SendPlaneFillIcon />
             </span>
             Direct
           </a>
-          <a href="#">
+          <a href="/profile">
             <span className="icon">
               <BarChart2FillIcon />
             </span>
-            Stats
+            Profile
           </a>
-          <a href="#">
+          <a href="/">
             <span className="icon">
               <Settings5FillIcon />
             </span>
             Settings
           </a>
-          <a href="#">
+          <a href="/">
             <span className="icon">
               <LogoutBoxRFillIcon />
             </span>
@@ -123,7 +123,7 @@ function HomePage() {
             <Notification4FillIcon />
             <MailUnreadFillIcon />
             {/* Button */}
-            <a href="#" className="btn">
+            <a href="/" className="btn">
               <AddCircleFillIcon />
               <div className="btn-text">Add Photo</div>
             </a>
@@ -133,7 +133,7 @@ function HomePage() {
         {/* ig stories */}
         <div className="stories-title">
           <h1>Stories</h1>
-          <a href="" className="btn">
+          <a href="/" className="btn">
             <PlayCircleFillIcon />
             <div className="text">Watch All</div>
           </a>

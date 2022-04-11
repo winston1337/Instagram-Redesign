@@ -9,10 +9,10 @@ const app = express();
 let connection;
 
 const db_config = {
-    host: '',
-    user: '',
-    password: '',
-    database: ''
+    host: 'us-cdbr-east-05.cleardb.net',
+    user: 'b9cbc5db38aa3f',
+    password: '4a31dd05',
+    database: 'heroku_47afe3083bec50c'
 };
 
 app.use(cors());
@@ -35,8 +35,8 @@ app.use((req, res, next) => {
     res.sendFile(path.join(__dirname, './build', 'index.html'))
 })
 
-app.listen(process.env.PORT || 4050, function(){
-    console.log(`Express is working on port 4050`)
+app.listen(process.env.PORT || 5000, function(){
+    console.log(`Express is working on port 5000`)
 });
 
 function handleDisconnect() {
