@@ -10,9 +10,11 @@ import HomePage from './pages/HomePage';
 
 function App (){
     return (
-        <div className="App">
+        
+         
           <Router>
-            {/* <InstaNav/> */}
+            <div className="App">
+            <InstaNav/>
             <Routes>
               <Route path="/" element={<Navigate to="/home" />}/>
               <Route path="/home" element={<HomePage/>}/>
@@ -20,8 +22,9 @@ function App (){
               <Route path="/chat" element={<Chats/>}/>
             </Routes>
             <InstaFooter/>
+            </div>
           </Router>
-        </div>
+        
     )
 }
 
