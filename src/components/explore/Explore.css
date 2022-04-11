@@ -29,7 +29,9 @@
 
 }
 .post:hover {
-    box-shadow: 0 5px 5px 0 rgb(32, 39, 42);
+    box-shadow: 0 5px 5px 0 rgb(180, 227, 247);
+    transform: scale(1.05);
+    transition-duration: 600ms;
 }
 .post_header {
     display: flex;
