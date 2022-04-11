@@ -37,11 +37,7 @@ const Activity = () => {
             <p class="activity">
               <b>@champagnepapi</b> liked your post.
             </p>
-            <img
-              src="./imgs/profile_photo4.jpeg"
-              class="activity-post"
-              alt="post"
-            />
+            <img src="./imgs/ig_photo4.jpeg" class="activity-post" alt="post" />
           </div>
 
           <div class="activity-card">
@@ -49,11 +45,7 @@ const Activity = () => {
             <p class="activity">
               <b>@champagnepapi</b> commented: This is nice Yo!
             </p>
-            <img
-              src="./imgs/profile_photo4.jpeg"
-              class="activity-post"
-              alt="post"
-            />
+            <img src="./imgs/ig_photo4.jpeg" class="activity-post" alt="post" />
           </div>
           <h2> This Week </h2>
           <div class="activity-card">
