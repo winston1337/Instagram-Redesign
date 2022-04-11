@@ -3,7 +3,7 @@ My group and I decided that we wanted to resdesign the Instagram website. We spe
 
 ## Getting Started
 
-Site hosted at instagram-redesign-murex.vercel.app
+Site hosted at https://instagram-redesign-murex.vercel.app/home
 
 1. Clone this repository into your terminal --->
 https://github.com/winston1337/Instagram-Redesign.git
