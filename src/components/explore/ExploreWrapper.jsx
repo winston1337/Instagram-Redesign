@@ -1,9 +1,23 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import ExploreCard from './ExploreCard';
-import Search from "./Search";
+
 
 const Wrapper = () => {
+    const [cards, setCards] = useState([]);
+    const [query, setQuery] = useState('');
+    useEffect(() => {
+        window.fetch('/api/posts')
+            .then((response) => response.text())
+            .then((data) => JSON.parse(data))
+            .then((cards) => {setCards(cards)})
+            .catch((err) => {
+                console.error(err)
+            })
+    },[])
+
+
     return (
+<<<<<<< HEAD
         <div>
             <Search/>
             <ExploreCard 
@@ -55,6 +69,37 @@ const Wrapper = () => {
                 url="/ExploreImages/photo-nic-unsplash.jpg" 
                 caption="Made some great memories"/>
         </div>
+=======
+    <>  <input className="searchBar" type="text" value=
+        {query} onChange={e => {
+            setQuery(e.target.value)
+        }}/> 
+         <div className="cards">
+            { cards
+                .filter((post) => {
+                    return (
+                        post.name.toLowerCase().includes(query.toLowerCase()) ||
+                        post.caption.toLowerCase().includes(query.toLowerCase())
+                    )
+                })
+                .map((post) => {
+                    console.log(post)
+                    return(
+                        <ExploreCard
+                        username={post.name}
+                        avatar={post.avatar} 
+                        url={post.image} 
+                        caption={post.caption}
+                        key={post.id}
+                        />
+                    )
+                })
+            }
+            </div>
+
+
+    </>
+>>>>>>> b20422409d4e78c10bfdf7ed1881725f32a6051a
     );
 }
 

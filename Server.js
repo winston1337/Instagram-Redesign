@@ -35,8 +35,8 @@ app.use((req, res, next) => {
     res.sendFile(path.join(__dirname, './build', 'index.html'))
 })
 
-app.listen(process.env.PORT || 4050, function(){
-    console.log(`Express is working on port 4050`)
+app.listen(process.env.PORT || 5000, function(){
+    console.log(`Express is working on port 5000`)
 });
 
 function handleDisconnect() {
