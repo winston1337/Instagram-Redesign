@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import ExploreCard from './ExploreCard';
+import Navbar from '../navbar/Header';
 
 
 const Wrapper = () => {
@@ -17,7 +18,9 @@ const Wrapper = () => {
 
 
     return (
-    <>  <input className="searchBar" type="text" value=
+    <>  <Navbar/>
+    
+    <input className="searchBar" type="text" value=
         {query} onChange={e => {
             setQuery(e.target.value)
         }}/> 
