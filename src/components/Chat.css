@@ -1,16 +1,35 @@
-.chat {
+.chat_container {
     display: flex;
+    width: 75%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    border:  2px solid #F4F2F2;
+    margin-left: 175px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.chat {
+    
+    display: flex;
+    left: 100px;
+    align-items: center;
     padding: 20px;
     height: 70px;
-    border-bottom: 1px solid lightgray;
+    width: 100%;
+    border: 1px solid #F4F2F2;
+    border-bottom: .1px solid white;
+    
 }
 
 .chat_details {
     flex: 1;
+   
 }
 
+.chat_details  p1 {
+   
+    color: #18B3B2;
+}
 .chat_details > p {
     color: gray;
 }
@@ -21,4 +40,5 @@
 
 .chat_image {
     margin-right: 20px;
+
 }

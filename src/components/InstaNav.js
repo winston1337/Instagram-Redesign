@@ -9,6 +9,7 @@ import ExploreIcon from "@mui/icons-material/Explore";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import Badge from "@mui/material/Badge";
 
+
 function InstaNav() {
   return (
     <div className="navbar">
@@ -27,28 +28,14 @@ function InstaNav() {
         </div>
       </div>
 
-      <div className="navbar_icons">
-        <button onClick={<HomeIcon className="nav_icon" />}></button>
-
-        <button onClick={<SendIcon className="nav_icon" />}></button>
-
-        <button onClick={<AddIcon className="nav_icon" />}></button>
-
-        <button onClick={<ExploreIcon className="nav_icon" />}></button>
-
-        <button
-          onClick={<FavoriteBorderOutlinedIcon className="nav_icon" />}
-        ></button>
-
-        <button
-          onClick={
-            <Avatar
-              alt="Instagram"
-              src="./profile_pic_insta.webp"
-              className="avatar"
-            />
-          }
-        ></button>
+      <div>
+      <ul className="navbar_icons">
+            <li><link to="/home">{<HomeIcon className="nav_icon" />}</link></li>
+            <li><link to="/chat">{<SendIcon className="nav_icon" />}</link></li>
+              <li><a href="/">{<AddIcon className="nav_icon" />}</a></li>
+              <li><link to="/explore">{<ExploreIcon className="nav_icon" />}</link></li>
+              <li><link to="/profile">{<Avatar alt="Instagram" src="./profile_pic_insta.webp" className="avatar"/>}</link></li>
+            </ul>
       </div>
     </div>
   );

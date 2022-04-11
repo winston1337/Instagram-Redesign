@@ -5,13 +5,16 @@ import Wrapper from './components/explore/ExploreWrapper';
 import HomePage from './pages/HomePage';
 import Profile from './components/screens/Profile';
 import Contact from "./components/contact/Contact.jsx";
-// import InstaFooter from "./components/InstaFooter.js";
+import Activity from "./components/activity/activity.js";
+import InstaFooter from "./components/InstaFooter.js";
+import Navbar from "./components/navbar/Header.jsx";
 
 function App (){
     return (
         <div className="App">
           <Router>
             {/* <InstaNav/> */}
+            <Navbar/>
             <Routes>
               <Route path="/" element={<Navigate to="/home" />}/>
               <Route path="/home" element={<HomePage/>}/>
@@ -19,9 +22,10 @@ function App (){
               <Route path="/explore" element={<Wrapper/>}/>
               <Route path="/chat" element={<Chats/>}/>
               <Route path="/contact" element={<Contact/>}/>
+              <Route path="/activity" element={<Activity/>}/>
 
             </Routes>
-            {/* <InstaFooter/> */}
+            <InstaFooter/>
           </Router>
         </div>
     )

@@ -84,10 +84,10 @@ class HomePage extends React.Component {
               <div className="icon">
                 <Notification4FillIcon />
               </div>
-              Notification
+              Activities
             </a>
 
-            <a href="/">
+            <a href="/chat">
               <span className="icon">
                 <MailUnreadFillIcon />
               </span>
@@ -99,11 +99,11 @@ class HomePage extends React.Component {
               </span>
               Direct
             </a>
-            <a href="/">
+            <a href="/profile">
               <span className="icon">
                 <BarChart2FillIcon />
               </span>
-              Stats
+              Profile
             </a>
             <a href="/">
               <span className="icon">
