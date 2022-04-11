@@ -5,12 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
-    "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    "@fortawesome/free-regular-svg-icons": "^6.1.1",
-    "@fortawesome/free-solid-svg-icons": "^6.1.1",
-    "@fortawesome/react-fontawesome": "^0.1.18",
-    "@mui/icons-material": "^5.6.1",
-    "@mui/material": "^5.5.3",
+    "@mui/material": "^5.6.0",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
@@ -56,11 +51,7 @@
       "last 1 safari version"
     ]
   },
-<<<<<<< HEAD
-  "proxy": "http://localhost:5000",
-=======
   "proxy": "http://localhost:5000/",
->>>>>>> 21addc99d79ef2136424a5fcf25d0b61f21d8949
   "devDependencies": {
     "webpack-dev-server": "^4.8.1"
   }
