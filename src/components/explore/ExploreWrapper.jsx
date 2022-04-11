@@ -18,6 +18,7 @@ const Wrapper = () => {
 
     return (
 <<<<<<< HEAD
+<<<<<<< HEAD
         <div>
             <Search/>
             <ExploreCard 
@@ -70,6 +71,8 @@ const Wrapper = () => {
                 caption="Made some great memories"/>
         </div>
 =======
+=======
+>>>>>>> 21addc99d79ef2136424a5fcf25d0b61f21d8949
     <>  <input className="searchBar" type="text" value=
         {query} onChange={e => {
             setQuery(e.target.value)
@@ -99,7 +102,10 @@ const Wrapper = () => {
 
 
     </>
+<<<<<<< HEAD
 >>>>>>> b20422409d4e78c10bfdf7ed1881725f32a6051a
+=======
+>>>>>>> 21addc99d79ef2136424a5fcf25d0b61f21d8949
     );
 }
 

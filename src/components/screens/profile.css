@@ -14,11 +14,16 @@
   grid-row-gap: 0px;
   margin: 0 auto;
 }
+<<<<<<< HEAD
 /* .item {
   width: 100%;
   padding: 1rem;
 } */
 .infoContainer {
+=======
+
+.infoContainer{
+>>>>>>> 21addc99d79ef2136424a5fcf25d0b61f21d8949
   margin-left: 30px;
 }
 .buttonContainer {
@@ -73,7 +78,6 @@
 .grid {
   width: 20px;
   height: 20px;
-  /* margin-left: 125px; */
   position: relative;
   margin-bottom: -2px;
 }
@@ -119,8 +123,7 @@
   transition-duration: 0.5s;
 }
 .card:hover {
-  width: 175px;
-  height: 160px;
+  transform: scale(1.1);
   transition-duration: 0.5s;
 }
 .card-image {
@@ -199,9 +202,20 @@
   padding: 1rem;
   border-radius: 1.5rem;
   transition-duration: 0.5s;
+  margin-bottom: 30px;
 }
 .profileImage:hover {
-  width: 375px;
-  height: 375px;
+  transform: scale(1.1);
   transition-duration: 0.5s;
+}
+@media screen and (max-width: 960px) {
+  .profileImage {
+    width: 100px;
+    height: 100px;
+    padding: .5rem;
+    border-radius: 1.5rem;
+    transition-duration: 0.5s;
+    margin: 0 auto;
+  }
+
 }
