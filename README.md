@@ -5,6 +5,9 @@ My group and I decided that we wanted to resdesign the Instagram website. We spe
 
 Site hosted at https://instagram-redesign-murex.vercel.app/home
 
+Wireframe: https://docs.google.com/presentation/d/1pIbRuH8nO40WhsQg8nObqYOymJYElUp4_ZLaFXABDCM/edit#slide=id.p
+
+
 1. Clone this repository into your terminal --->
 https://github.com/winston1337/Instagram-Redesign.git
 
