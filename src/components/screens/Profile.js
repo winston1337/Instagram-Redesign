@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./profile.css";
+import Navbar from "../navbar/Header";
 
 const Profile = () => {
   const [suggestionMenu, setSuggestionMenu] = useState(false);
@@ -39,7 +40,12 @@ const Profile = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div style={{ maxWidth: "550px", margin: "0px auto" }}>
+=======
+    <> <Navbar/>
+    <div style={{ maxWidth: "675px", margin: "0px auto" }}>
+>>>>>>> 5a384f83d6ec01868fc6e86e157be5b589fe11ec
       <div
         style={{
           display: "flex",
@@ -50,7 +56,16 @@ const Profile = () => {
       >
         <div>
           <img
+<<<<<<< HEAD
             style={{ width: "168px", height: "168px", borderRadius: "80px" }} alt="img"
+=======
+            style={{
+              width: "168px",
+              height: "168px",
+              borderRadius: "80px",
+              marginRight: "20px",
+            }} alt="img"
+>>>>>>> 5a384f83d6ec01868fc6e86e157be5b589fe11ec
             src="https://images.unsplash.com/photo-1633113247735-45a969eb9266?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5zdGFncmFtfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
           />
         </div>
@@ -61,7 +76,7 @@ const Profile = () => {
               className="check" alt="img"
               src="https://thumbs.dreamstime.com/b/approved-icon-profile-verification-accept-badge-quality-check-mark-sticker-tick-vector-illustration-128840911.jpg"
             />
-            <button className="messageButton">Message</button>
+            <button className="messageButton" href="/chat">Message</button>
             {followingIr ? (
               <button
                 className="suggestionFollowing"
@@ -78,7 +93,15 @@ const Profile = () => {
               {suggestionMenu ? (
                 <i class="fa fa-angle-up" aria-hidden="true"></i>
               ) : (
+<<<<<<< HEAD
                 <i className="fa fa-angle-down" aria-hidden="true"></i>
+=======
+                <img
+                  className="downArrow"
+                  src="/profileImage/downArrow.png"
+                  alt="downArrow"
+                />
+>>>>>>> 5a384f83d6ec01868fc6e86e157be5b589fe11ec
               )}
             </button>
           </div>
@@ -250,7 +273,17 @@ const Profile = () => {
         </div>
       ) : null}
 
+<<<<<<< HEAD
       <hr className="line"
+=======
+      <hr
+        style={{
+          marginTop: "1rem",
+          marginBottom: "1rem",
+          width: "160%",
+          marginLeft: "-12rem",
+        }}
+>>>>>>> 5a384f83d6ec01868fc6e86e157be5b589fe11ec
       ></hr>
 
       <div className="gridPosts">
@@ -312,6 +345,7 @@ const Profile = () => {
         />
       </div>
     </div>
+    </>
   );
 };
 

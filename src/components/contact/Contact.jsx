@@ -1,9 +1,11 @@
 import React from 'react';
 import './Contact.css';
+import Navbar from '../navbar/Header';
 
 
 function Contact() {
   return (
+    <>  <Navbar/>
     <section className="contactForm">
     <form>
       <h2>Contact Us</h2>
@@ -51,7 +53,7 @@ function Contact() {
     </form>
 
   </section>
-
+  </>
   );
 }
 

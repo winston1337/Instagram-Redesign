@@ -1,9 +1,12 @@
 import React from "react";
 import "./Chat.css";
 import Chat from "./Chat"
+import Navbar from "./navbar/Header";
+
 
 function Chats() {
     return (
+        <><Navbar/>
         <div className="chat_container">
         <div className="chats">
             <Chat
@@ -69,6 +72,7 @@ function Chats() {
             />
         </div>
         </div>
+        </>
 
     )
 }

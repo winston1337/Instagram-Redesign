@@ -11,8 +11,7 @@
 
 .activity-log {
   border: 0.4rem solid black;
-  max-height: 55rem;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 .activity-log h2 {
   text-align: left;
@@ -29,8 +28,6 @@
 .activity-card {
   align-items: center;
   display: flex;
-  grid-gap: 0.75rem;
-  grid-template-columns: max-content max-content;
   padding: 0.75rem;
 }
 
@@ -43,9 +40,43 @@
 }
 
 .activity-post {
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
   display: block;
   margin-left: auto;
   border-radius: 5%;
+}
+@media screen and (max-width: 960px) {
+  .notifications h1 {
+    padding: 1rem 0 !important;
+    margin-left: 1.5rem;
+    text-align: left;
+  }
+  .activity-log {
+    max-width: 408px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .activity-log button {
+    display: block;
+    margin-left: auto;
+    height: 1.5rem;
+    width: 5rem;
+  }
+  .activity-card {
+    align-items: center;
+    display: flex;
+    padding: 0.75rem;
+  }
+  .activity-post {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    border-radius: 5%;
+  }
+  .activity {
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
 }

@@ -14,8 +14,16 @@
   grid-row-gap: 0px;
   margin: 0 auto;
 }
+<<<<<<< HEAD
 
 .infoContainer{
+=======
+/* .item {
+  width: 100%;
+  padding: 1rem;
+} */
+.infoContainer {
+>>>>>>> 5a384f83d6ec01868fc6e86e157be5b589fe11ec
   margin-left: 30px;
 }
 .buttonContainer {
