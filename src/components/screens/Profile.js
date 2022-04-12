@@ -68,7 +68,9 @@ const Profile = () => {
               className="check" alt="img"
               src="https://thumbs.dreamstime.com/b/approved-icon-profile-verification-accept-badge-quality-check-mark-sticker-tick-vector-illustration-128840911.jpg"
             />
-            <button className="messageButton" href="/chat">Message</button>
+            <a href="/chat" className="messageButton">Message
+            </a>
+            
             {followingIr ? (
               <button
                 className="suggestionFollowing"
