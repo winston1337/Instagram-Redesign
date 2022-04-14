@@ -3,7 +3,7 @@ My group and I decided that we wanted to resdesign the Instagram website. We spe
 
 ## Getting Started
 
-Site hosted at https://instagram-redesign-murex.vercel.app/home
+Site hosted at http://54.85.159.219:5000/home
 
 Wireframe: https://docs.google.com/presentation/d/1pIbRuH8nO40WhsQg8nObqYOymJYElUp4_ZLaFXABDCM/edit#slide=id.p
 
