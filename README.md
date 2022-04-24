@@ -2,6 +2,12 @@
 My group and I decided that we wanted to resdesign the Instagram website. We spent time focusing on redesigning some of the pages/things on Instagram that include the Home page, Messages, Activity/Notifications, Nav/Footer, Explore and Profile page. We were able to use our knowledge and creativty to change the color scheme/layout of Instagram and overall give it a new look!
 
 ## Getting Started
+
+Site hosted at http://54.85.159.219:5000/home
+
+Wireframe: https://docs.google.com/presentation/d/1pIbRuH8nO40WhsQg8nObqYOymJYElUp4_ZLaFXABDCM/edit#slide=id.p
+
+
 1. Clone this repository into your terminal --->
 https://github.com/winston1337/Instagram-Redesign.git
 

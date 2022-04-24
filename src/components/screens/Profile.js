@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./profile.css";
+import Navbar from "../navbar/Header";
 
 const Profile = () => {
   const [suggestionMenu, setSuggestionMenu] = useState(false);
@@ -39,6 +40,7 @@ const Profile = () => {
   };
 
   return (
+    <> <Navbar/>
     <div style={{ maxWidth: "675px", margin: "0px auto" }}>
       <div
         style={{
@@ -55,7 +57,7 @@ const Profile = () => {
               height: "168px",
               borderRadius: "80px",
               marginRight: "20px",
-            }}
+            }} alt="img"
             src="https://images.unsplash.com/photo-1633113247735-45a969eb9266?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5zdGFncmFtfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
           />
         </div>
@@ -63,10 +65,12 @@ const Profile = () => {
           <div className="buttonContainer">
             <h2>instagramredesign</h2>
             <img
-              className="check"
+              className="check" alt="img"
               src="https://thumbs.dreamstime.com/b/approved-icon-profile-verification-accept-badge-quality-check-mark-sticker-tick-vector-illustration-128840911.jpg"
             />
-            <button className="messageButton" href="/chat">Message</button>
+            <a href="/chat" className="messageButton">Message
+            </a>
+            
             {followingIr ? (
               <button
                 className="suggestionFollowing"
@@ -126,7 +130,7 @@ const Profile = () => {
               <div class="card">
                 <div className="card-image">
                   <img
-                    className="suggestionImage"
+                    className="suggestionImage" alt="img"
                     src="https://images.unsplash.com/photo-1559244673-9cee88d551f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60"
                   />
                 </div>
@@ -160,7 +164,7 @@ const Profile = () => {
               <div className="card">
                 <div className="card-image">
                   <img
-                    className="suggestionImage"
+                    className="suggestionImage" alt="img"
                     src="https://images.unsplash.com/photo-1568429838920-de3a3aa8cf1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60"
                   />
                 </div>
@@ -194,7 +198,7 @@ const Profile = () => {
               <div className="card">
                 <div className="card-image">
                   <img
-                    className="suggestionImage"
+                    className="suggestionImage" alt="img"
                     src="https://images.unsplash.com/photo-1485541653056-e688bdf8319e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60"
                   />
                 </div>
@@ -228,7 +232,7 @@ const Profile = () => {
               <div className="card">
                 <div class="card-image">
                   <img
-                    className="suggestionImage"
+                    className="suggestionImage" alt="img"
                     src="https://images.unsplash.com/photo-1465188035480-cf3a60801ea5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60"
                   />
                 </div>
@@ -274,7 +278,7 @@ const Profile = () => {
 
       <div className="gridPosts">
         <img
-          className="grid"
+          className="grid" alt="img"
           src="https://w7.pngwing.com/pngs/877/110/png-transparent-magic-square-safety-net-rectangle-mathematics-black-and-white-grid-miscellaneous-angle-furniture-thumbnail.png"
         />
         <span className="posts">POSTS</span>
@@ -282,55 +286,56 @@ const Profile = () => {
 
       <div className="gallery">
         <img
-          className="profileImage"
+          className="profileImage" alt="img"
           src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmVhdXRpZnVsJTIwaW1hZ2VzJTIwb2YlMjBwbGFjZXMlMjB0byUyMG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
         />
         <img
-          className="profileImage"
+          className="profileImage" alt="img"
           src="https://images.unsplash.com/photo-1443926818681-717d074a57af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmVhdXRpZnVsJTIwaW1hZ2VzJTIwb2YlMjBwbGFjZXMlMjB0byUyMG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
         />
         <img
-          className="profileImage"
+          className="profileImage" alt="img"
           src="https://images.unsplash.com/photo-1495594059084-33752639b9c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmVhdXRpZnVsJTIwaW1hZ2VzJTIwb2YlMjBwbGFjZXMlMjB0byUyMG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
         />
         <img
-          className="profileImage"
+          className="profileImage" alt="img"
           src="https://images.unsplash.com/photo-1552323543-4cffa4ffffe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGJlYXV0aWZ1bCUyMGltYWdlcyUyMG9mJTIwcGxhY2VzJTIwdG8lMjBuYXR1cmV8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
         />
         <img
-          className="profileImage"
+          className="profileImage" alt="img"
           src="https://images.unsplash.com/photo-1531162328795-808523268d2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJlYXV0aWZ1bCUyMGltYWdlcyUyMG9mJTIwcGxhY2VzJTIwdG8lMjBuYXR1cmV8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
         />
         <img
-          className="profileImage"
+          className="profileImage" alt="img"
           src="https://images.unsplash.com/photo-1444021465936-c6ca81d39b84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmVhdXRpZnVsJTIwaW1hZ2VzJTIwb2YlMjBwbGFjZXMlMjB0byUyMG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
         />
         <img
-          className="profileImage"
+          className="profileImage" alt="img"
           src="https://images.unsplash.com/photo-1570030990547-f6b13f3062ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
         />
         <img
-          className="profileImage"
+          className="profileImage" alt="img"
           src="https://images.unsplash.com/photo-1553856622-d1b352e9a211?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
         />
         <img
-          className="profileImage"
+          className="profileImage" alt="img"
           src="https://images.unsplash.com/photo-1495908333425-29a1e0918c5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
         />
         <img
-          className="profileImage"
+          className="profileImage" alt="img"
           src="https://images.unsplash.com/photo-1611420182989-3020dec418be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60"
         />
         <img
-          className="profileImage"
+          className="profileImage" alt="img"
           src="https://images.unsplash.com/photo-1583125311319-300af4db4abc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60"
         />
         <img
-          className="profileImage"
+          className="profileImage" alt="img"
           src="https://images.unsplash.com/photo-1566704351700-da9069468d94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fG5hdHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
         />
       </div>
     </div>
+    </>
   );
 };
 
